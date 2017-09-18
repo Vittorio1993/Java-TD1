@@ -2,6 +2,7 @@
 Dé finition dé classés ét cré ation
 d’objéts – TP 1
 Enoncé
+
 L'objectif est de représenter des épreuves de sprint. A chaque épreuve participe un ensemble
 d’athlètes. Les informations devant être restituées pour un athlète sont son nom et son prénom.
 Lorsqu’un athlète participe à une course, on souhaite connaitre le numéro du couloir où il court et le
