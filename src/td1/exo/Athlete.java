@@ -14,8 +14,8 @@ public class Athlete {
     private String first_name;
     
     public void init(String n, String p){
-        family_name=n;
-        first_name=p;
+        family_name=p;
+        first_name=n;
     }
     public String get_family_name(){
         return family_name;
@@ -26,7 +26,9 @@ public class Athlete {
     }
     
     public void afficher(){
-       String test="Athlète "+family_name+","+first_name;
+       String test="Athlète "+first_name+","+family_name;
        System.out.println(test);
     }
+
+   
 }

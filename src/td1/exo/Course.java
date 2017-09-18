@@ -26,7 +26,7 @@ public class Course {
         return name;
     }
     public void affect(Athlete a, int c){
-        
+       
     }
     public void record(int c, int t){
         

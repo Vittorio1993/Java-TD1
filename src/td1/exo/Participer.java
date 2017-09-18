@@ -13,6 +13,11 @@ public class Participer {
     private int no_runway;
     private int time;
     
+    public void init(int n, int y){
+        no_runway=n;
+        time=y;
+    }
+    
     public int get_no_runway(){
         return no_runway;
     }  
@@ -23,6 +28,7 @@ public class Participer {
         time=t;
     
     }
+
     
     
 }
