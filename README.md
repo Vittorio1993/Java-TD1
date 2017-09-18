@@ -7,6 +7,7 @@ d’athlètes. Les informations devant être restituées pour un athlète sont s
 Lorsqu’un athlète participe à une course, on souhaite connaitre le numéro du couloir où il court et le
 temps mis par celui-ci. La modélisation doit permettre la prise en charge de plusieurs courses. Pour
 une course, on doit pouvoir :
+
  connaitre son libellé ;
  affecter un athlète c à un couloir i ;
  enregistrer le temps du concurrent du couloir i ;
