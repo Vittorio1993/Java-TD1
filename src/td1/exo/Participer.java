@@ -46,6 +46,13 @@ public class Participer {
         System.out.println("Paritciper:");
         System.out.print("\t");
         get_athelete().afficher();
+        System.out.println("\tsur le couloir "+get_no_runway());
+        if (get_time()!=null){
+            System.out.println("\ta réalisé le temps de "+get_time());
+        }else{
+            System.out.println("\tn'a pas encore couru");
+        }
+        
         
         
         

@@ -11,13 +11,13 @@ import java.util.ArrayList;
  * @author zhanghuakai
  */
 public class Course {
+
     private String name;
-    private Integer nbrunway;
-    private Athlete ath;
     ArrayList<Participer> lstparticipant;
     
     public void init(String n){
-        lstparticipant = new ArrayList<>();    
+        lstparticipant = new ArrayList<>(); 
+        name=n;
         
         
     }
@@ -28,9 +28,7 @@ public class Course {
         return name;
     }
     
-    public Integer get_nbrunway(){
-        return nbrunway;
-    }
+   
     
     public void affect(Athlete a, Integer c){
         Participer p=new Participer();
@@ -60,19 +58,14 @@ public class Course {
          
     public Athlete get_winer(){
         Integer winertime;
-        Athlete winer=new Athlete();
+        Athlete winer;
         winer=lstparticipant.get(0).get_athelete();
         winertime = lstparticipant.get(0).get_time(); 
         for(int i=0;i<=lstparticipant.size()-1;i++){
             if( lstparticipant.get(i).get_time()<winertime){
                 winer=lstparticipant.get(i).get_athelete();
             }
-            return winer; 
-        }
-        
-        
-        
-        
-        return ath ; 
+        }  
+        return winer; 
     }
 }
